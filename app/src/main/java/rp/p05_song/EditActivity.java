@@ -28,11 +28,11 @@ public class EditActivity extends AppCompatActivity {
         editEditSingers = findViewById(R.id.editEditSingers);
         editEditYears = findViewById(R.id.editEditYear);
         radioGroup = findViewById(R.id.editGroupStars);
-        one = findViewById(R.id.radio1);
-        two = findViewById(R.id.radio2);
-        three = findViewById(R.id.radio3);
-        four = findViewById(R.id.radio4);
-        five = findViewById(R.id.radio5);
+        one = findViewById(R.id.edit1);
+        two = findViewById(R.id.edit2);
+        three = findViewById(R.id.edit3);
+        four = findViewById(R.id.edit4);
+        five = findViewById(R.id.edit5);
         update = findViewById(R.id.update);
         cancel = findViewById(R.id.cancel);
         delete = findViewById(R.id.delete);

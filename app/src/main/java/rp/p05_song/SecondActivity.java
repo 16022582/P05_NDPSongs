@@ -38,12 +38,12 @@ public class SecondActivity extends AppCompatActivity {
         songView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                Intent moveToEditActivity = new Intent(SecondActivity.this, EditActivity.class);
+                Intent intent = new Intent(SecondActivity.this, EditActivity.class);
 
                 Song data = al.get(position);
 
-                moveToEditActivity.putExtra("data", data);
-                startActivityForResult(moveToEditActivity, 9);
+                intent.putExtra("data", data);
+                startActivityForResult(intent, 9);
 
             }
         });

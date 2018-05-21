@@ -64,8 +64,8 @@ public class MainActivity extends AppCompatActivity {
         showList.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent moveToSecondActivity = new Intent(MainActivity.this, SecondActivity.class);
-                startActivity(moveToSecondActivity);
+                Intent intent = new Intent(MainActivity.this, SecondActivity.class);
+                startActivity(intent);
             }
         });
     }
